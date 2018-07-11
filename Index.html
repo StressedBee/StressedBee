@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+</style>
+<div class="w3-bar w3-panel w3-border w3-round-xxlarge w3-border-bottom w3-border-yellow w3-topbar w3-bottombar w3-border-red w3-pale-yellow">
+  <a href="#" class="w3-bar-item w3-button">Home</a>
+  <a href="https://www.deviantart.com/madalice16" class="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-white">Deviantart</a>
+  <a href="https://www.linkedin.com/in/deborah-santiago-ortiz-391060165/" class="w3-bar-item w3-button w3-hover-none w3-text-grey w3-hover-text-white">LinkedIn</a>
+  <a href="https://photos.google.com/search/_tra_/photo/AF1QipOIEB-_4p6fE3lDFJh2tE_PUFLF5fSxQeiRt-PC" class="w3-bar-item w3-buttonw3-hover-none w3-text-grey w3-hover-text-white">Resume</a> 
+</div>
+</style>
+
+<div class="w3-content" style="max-width:1500px">
+
+  
+  <header class="w3-container w3-xlarge w3-padding-24">
+    <a href="#" class="w3-left w3-button w3-white">MY ART</a>
+    <a href="#about" class="w3-right w3-button w3-white">About</a>
+  </header>
+<h2 class="w3-center">My Art</h2>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="https://orig00.deviantart.net/fabe/f/2018/189/4/1/facebook_art_by_madalice16-dcgobu3.jpg" style="width:100%">
+  <img class="mySlides" src="https://img00.deviantart.net/4b72/i/2018/189/2/0/elsa_mars_world_by_madalice16-d8aqatp.png" style="width:100%">
+  <img class="mySlides" src="https://orig00.deviantart.net/2bbb/f/2018/189/4/5/ubbe_by_madalice16-dcgobdf.jpg" style="width:100%">
+  <img class="mySlides" src="https://img00.deviantart.net/d80b/i/2015/108/f/e/double_d_by_madalice16-d7b9wgz.jpg" style="width:100%">
+  <img class="mySlides" src="https://img00.deviantart.net/6e83/i/2018/191/6/4/loki_by_madalice16-d7b9uqd.jpg" style="width:100%">
+  <img class="mySlides" src="https://pre00.deviantart.net/5898/th/pre/i/2018/191/3/7/malefcents_by_madalice16-d86ujxr.jpg" style="width:100%">
+  <img class="mySlides" src="https://pre00.deviantart.net/4b14/th/pre/f/2018/189/1/d/arielliveaction_by_madalice16-dcgoca6.png" style="width:100%">
+  <img class="mySlides" src="https://pre00.deviantart.net/468a/th/pre/i/2018/189/5/3/the_brain_by_madalice16-dcgocqz.png" style="width:100%">
+  <img class="mySlides" src="https://img00.deviantart.net/77bf/i/2018/191/c/4/brella_by_madalice16-d86ukcu.jpg" style="width:100%">
+  <img class="mySlides" src="https://pre00.deviantart.net/ba2d/th/pre/i/2018/191/b/7/yoshi_by_madalice16-d7b9w0v.jpg" style="width:100%">
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+  
+  </div>
+  
+
+</div>
+
+<footer class="w3-light-yellow w3-padding-64 w3-center" id="about">
+  <h2>About</h2>
+  <img src="https://media.licdn.com/dms/image/C4E03AQHuLJe_oKo2bg/profile-displayphoto-shrink_200_200/0?e=1536796800&amp;v=beta&amp;t=MHTPcXMrclLGydsaeXmaSVfRXbHylox73ZtCitWnets" class="profile-photo-edit__preview" alt="Edit photo" height="128" width="128">
+  <form style="margin:auto;width:60%" action="/action_page.php" target="_blank">
+    <p>My name is Deborah (<em>Deb</em>), I live in Springfield, MA and I was born in Puerto Rico. I am a Gateway to College graduate, who will do anything to carve a future for herself. 
+	I am interested in Art, Techonology and Other activities. I was not a traditional high school student so with every struggle I created oppurtunities. 
+	I strived for more and became the first person in my family to have a High School Diploma and enroll in College.
+	Now I hope to find my passion in something I already know, Computer IT. I love my name because in Hebrew "Devora" means Bumble Bee and that's close enough!</p>
+   <h2> Wanna Catch Up?</h2>
+   <div class="w3-section">
+      <label><b>Name</b></label>
+      <input class="w3-input w3-border" type="text" required name="Name">
+    </div>
+    <div class="w3-section">
+      <label><b>Email</b></label>
+      <input class="w3-input w3-border" type="text" required name="Email">
+    </div>
+    <div class="w3-section">
+      <label><b>Message</b></label>
+      <input class="w3-input w3-border" required name="Message">
+    </div>
+    <button type="submit" class="w3-button w3-block w3-yellow">Send</button>
+  </form>
+  <br>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+ 
+</body>
+</html>
